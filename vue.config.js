@@ -7,6 +7,7 @@ module.exports = {
       vue: 'Vue',
       vuetify: 'Vuetify',
       'vuetify/lib/framework': 'Vuetify',
+      'httpVueLoader': 'httpVueLoader',
     })
   }
 }

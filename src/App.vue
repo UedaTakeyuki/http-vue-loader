@@ -7,8 +7,9 @@
 </template>
 
 <script>
-import Home from './components/Home';
-
+//import Home from '@/views/Home.vue'
+import httpVueLoader from "httpVueLoader";
+const Home = httpVueLoader('/src/views/Home.vue')
 export default {
   name: 'App',
 
